@@ -1,0 +1,42 @@
+section.secao-categorias {
+    width: 100%;
+    max-width: 1024px;
+}
+
+section.secao-categorias div h2 {
+    margin-bottom: 20px;
+}
+
+section.secao-categorias div.container-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section.secao-categorias div.container-botoes button {
+    padding: 10px 0px;
+    flex: 1 1 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+}
+
+section.secao-categorias div.container-botoes button:hover {
+    background-color: goldenrod;
+}
+
+section.secao-categorias div.container-botoes button img {
+    width: 20px;
+}
+
+.acenderBtn {
+    background-color: goldenrod;
+}

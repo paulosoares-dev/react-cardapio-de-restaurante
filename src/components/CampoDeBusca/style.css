@@ -1,0 +1,40 @@
+.barra-de-pesquisa {
+    width: 100%;
+    max-width: 1024px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+}
+  
+.barra-de-pesquisa:hover {
+    border: 2px solid goldenrod;
+}
+  
+.barra-de-pesquisa img {
+    width: 30px;
+}
+  
+.barra-de-pesquisa input {
+    width: 100%;
+    padding: 0px 5px;
+    border: 0;
+    border-radius: 10px;
+    outline-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+}
+  
+.barra-de-pesquisa input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+@media (max-width: 425px) {
+    .barra-de-pesquisa input::placeholder {
+      font-size: 12px;
+    }
+}
