@@ -1,0 +1,16 @@
+footer {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: goldenrod;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    width: 100%;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
